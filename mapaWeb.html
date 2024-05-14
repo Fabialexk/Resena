@@ -1,0 +1,170 @@
+<!--Fabián Alejandro Mendoza 4°B Programación 15/04/2024-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("Fondo.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        #container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0);
+        }
+        h1 {
+            color: #ca6d17;
+            text-align: center;
+            margin-bottom: 20px; 
+            font-size:70px;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+            -webkit-text-stroke: 1px white;
+        }
+        h2, h3, h4, h5 {
+            color: #8a177a;
+            border-bottom: 5px solid black; 
+            padding-bottom: 5px; 
+            margin-top: 30px;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        }
+        h2 {
+            border-bottom: none; 
+        }
+        h3:nth-of-type(1),
+        h3:nth-of-type(2),
+        h3:nth-of-type(3) {
+            border-bottom: none; 
+        }
+        p {
+            color: #333232;
+            font-family: 'Cooper Black', sans-serif;
+            font-size: 1.65em;
+            text-align: justify;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+            border: 3px solid black; 
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #000000;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            display: inline-block;
+            margin: 0 10px; 
+            margin-top: 20px; 
+            margin-bottom: 20px; 
+        }
+        .imagenes-container {
+            text-align: center;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Nivel 1: Página Principal (Inicio) -->
+    <header>
+        <br><br><br><br>
+    <i><h1  id="inicio" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;">Bienvenido a Tu Sitio de Reseñas en donde siempre hablaremos con la "verdad"</h1></i>
+     <div class="imagenes-container">
+         <img src="Inpector.gif" alt="Inspector" width="300" height="200">
+         <img src="Terraza.gif" alt="Detective" width="300" height="200">
+         <img src="Rata.gif" alt="Rata" width="300" height="200">
+     </div>
+     <hr width="100%" size="5" noshade="" align="center"> 
+     <nav div id="container"></div>
+            <h2>Indice</h2>
+            <ul>
+                <li><a href="#nosotros" style="font-family: Brodille;">Nosotros</a></li>
+                <li><a href="#reseñas" style="font-family: Brodille;">Reseñas</a></li>
+                <li><a href="#galería" style="font-family: Brodille;">Galería</a></li>
+                <li><a href="#contacto" style="font-family: Brodille;">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="container">
+    <!-- Nivel 2: Páginas de Categoría -->
+    <section id="nosotros">
+        <h2>Acerca de Nosotros</h2>
+        <i><p>¡Bienvenido a Fabcrit!
+
+            En Fabcrit, nos apasiona explorar y compartir nuestras experiencias en una amplia variedad de lugares, desde restaurantes y cafeterías hasta parques, museos y más. Nuestro equipo de críticos está formado por unicamente por su servidor Alejandro Mendoza Fabián, dedicado a descubrir los rincones más fascinantes y deliciosos que Oaxaca puede ofrecer.
+            
+            Creemos en proporcionar reseñas honestas y detalladas para ayudar a nuestra comunidad a tomar decisiones informadas sobre dónde pasar su tiempo y dinero preciados. Ya sea que estés buscando el restaurante perfecto para una ocasión especial, un refugio tranquilo para disfrutar de la naturaleza o un destino emocionante para explorar, estamos aquí para guiarte en cada paso del camino.
+            
+            Nuestra misión es ser tu compañero confiable en tus aventuras, ofreciéndote recomendaciones sinceras y críticas objetivas. Valoramos la diversidad de experiencias y perspectivas, y nos esforzamos por celebrar la riqueza de la cultura y la creatividad que se encuentra en cada rincón del bello estado de Oaxaca de Juarez.
+            
+            En Fabcrit, nos comprometemos a mantener altos estándares de calidad y profesionalismo en todas nuestras reseñas y artículos. Nos esforzamos por ser una fuente confiable de información para nuestros lectores, y siempre estamos abiertos a comentarios y sugerencias para mejorar continuamente nuestra plataforma.
+            
+            ¡Gracias por unirte a nosotros en esta emocionante aventura de descubrimiento y exploración!
+            
+            ¡Explora con nosotros y descubre los tesoros ocultos que el mundo tiene para ofrecer!</p></i>
+            <div class="imagenes-container">
+                <img src="YoAmáTerraza.JPG" alt="YoAmáTerraza" width="289" height="200">
+                <img src="Yo2.gif" alt="Yo2" width="350" height="200">
+                <img src="yo3.jpg" alt="Yo3" width="210" height="200">
+            </div>
+    </section>
+
+    <section id="reseñas">
+        <h2>Reseñas</h2>
+        <!-- Sección para agregar críticas sobre diferentes lugares -->
+        <!-- Subpáginas de reseñas con enlaces a páginas específicas -->
+        <ul>
+            <li><a href="Sushi_itto.html" style="font-family: Brodille;">Sushi_itto</a></li>
+            <li><a href="Amá_Terraza.html" style="font-family: Brodille;">Ama_Terraza</a></li>
+            <li><a href="Magnolia_Rooftop-Mezcal-Café.html" style="font-family: Brodille;">Magnolia_Rooftop-Mezcal-Cafe</a></li>
+        </ul>
+    </section>
+
+    <section id="galería">
+        <h2>Galería de Fotos</h2>
+        <li><a href="galeria.html" style="font-family: Brodille;">Carrusel de fotos de las locaciónes</a></li>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto del creador de la página</h2>
+                <li><a href="https://www.facebook.com/profile.php?id=61555736941727&mibextid=LQQJ4d"><img src= "facebook.png" alt=""></a></li>
+                <li><a href="https://twitter.com/Fabialexk_"><img src="gorjeo.png" alt=""></a></li>
+                <li><a href="https://www.instagram.com/fabialexk_mz/"><img src="social.png" alt=""></a></li>
+                <li><a href="https://wa.link/o6wu0n"><img src="whatsapp.png" alt=""></a></li>
+                <li><a href="acercaDe.html"><img src="boton-de-informacion.png" alt=""></a></li>
+    </section>
+
+    <!-- Nivel 3: Páginas Específicas (Ejemplo para una reseña) -->
+    <!-- Crear archivos separados como reseña1.html, reseña2.html, etc. -->
+
+    <footer>
+        <!-- Enlace para volver a la página principal -->
+        <p><a href="#inicio">Volver al Inicio</a></p>
+    </footer>
+
+</body>
+</html>
